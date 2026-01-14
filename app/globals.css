@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+@import "tailwindcss";
+
+@theme {
+  /* Daftarkan warna Figma di sini */
+  --color-primary: #9F2D00;   /* Cokelat Tua */
+  --color-secondary: #FEF3C6; /* Emas/Cokelat Muda */
+  --color-cream: #FFFBEB;     /* Background Krem */
+  --color-accent: #E17100;    /* Warna pendukung */
+}
+
+:root {
+  background: var(--color-cream);
+  color: var(--color-primary);
+}
