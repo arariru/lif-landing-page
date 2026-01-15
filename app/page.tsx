@@ -313,7 +313,7 @@ export default function Page() {
 
         <div className="mb-10">
   <p className="text-[#BB4D00] font-bold text-lg mb-4 tracking-tight">
-    Registration before January 15th, 2026:
+    Registration before January 22nd, 2026:
   </p>
   {/* Hyperlink ke Google Form */}
   <a 
