@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LIF Indonesia Chapter", // Ganti ini
-  description: "Official Website for LIF Indonesia Chapter", // Ganti ini
+  title: "LIF Indonesia Chapter",
+  description: "Official Website...",
+  icons: {
+    icon: "/favicon.ico?v=1", // Tambahkan ?v=1 di belakangnya
+  },
 };
 
 export default function RootLayout({
