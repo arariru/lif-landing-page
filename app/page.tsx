@@ -46,14 +46,20 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="mt-10">
-              <a 
-                href="#about" 
-                className="inline-block px-10 py-3.5 bg-[#FE8900] text-white rounded-full font-bold hover:scale-105 transition-all shadow-lg text-[12px] uppercase tracking-widest"
-              >
-                LEARN MORE
-              </a>
-            </div>
+            <div className="mt-10 flex flex-col md:flex-row items-center gap-4">
+  <a 
+    /* Link yang sudah dimodifikasi untuk direct download */
+    href="https://drive.google.com/uc?export=download&id=1ry_tC0k3HP4lV30MwJnD-b4cF9WvvB01" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-10 py-3.5 bg-[#FE8900] text-white rounded-full font-bold hover:scale-105 transition-all shadow-lg text-[12px] uppercase tracking-widest"
+  >
+    DOWNLOAD
+  </a>
+  <span className="text-white text-sm md:text-[16px] font-medium opacity-90 italic">
+    Download our alumni booklet here
+  </span>
+</div>
           </div>
         </div>
       </section>
