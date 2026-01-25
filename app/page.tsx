@@ -341,68 +341,71 @@ export default function Page() {
   </div>
 </section>
 {/* SECTION GALLERIES */}
-      <section id="galleries" className="bg-white py-24 px-6 md:px-16 lg:px-24 scroll-mt-20">
-        <div className="w-full max-w-7xl mx-auto">
-          
-          {/* Header Section */}
-          <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-            <div className="max-w-2xl">
-              <h2 className="text-3xl md:text-[40px] font-bold text-[#2D1201] mb-4 tracking-tight">
-                Galleries
-              </h2>
-              <p className="text-lg text-gray-700">
-                Moments of innovation and collaboration from the LIF Indonesia community.
-              </p>
-            </div>
-            {/* View More Link */}
-            <a 
-              href="#" 
-              className="group flex items-center gap-2 text-[#BB4D00] font-bold border-b-2 border-[#BB4D00] pb-1 hover:text-[#FE8900] hover:border-[#FE8900] transition-all"
-            >
-              View More 
-              <span className="group-hover:translate-x-1 transition-transform">→</span>
-            </a>
-          </div>
+<section id="galleries" className="bg-white py-24 px-6 md:px-16 lg:px-24 scroll-mt-20">
+  <div className="w-full max-w-7xl mx-auto">
+    {/* Header Section */}
+    <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+      <div className="max-w-2xl">
+        <h2 className="text-3xl md:text-[40px] font-bold text-[#2D1201] mb-4 tracking-tight">
+          Galleries
+        </h2>
+        <p className="text-lg text-gray-700">
+          Moments of innovation and collaboration from the LIF Indonesia community.
+        </p>
+      </div>
+    </div>
 
-          {/* Grid 3 Gambar */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            {/* Image 1 */}
-            <div className="relative h-[400px] overflow-hidden rounded-[40px] shadow-sm group">
-              <Image 
-                src="/galleries-image1.webp" 
-                alt="LIF Gallery 1" 
-                fill 
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </div>
+    {/* Grid 4 Gambar - grid-cols-1 di HP biar nggak penyet, md:grid-cols-2 di Laptop */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      {/* Image 1 */}
+      <div className="relative h-[400px] md:h-[600px] overflow-hidden rounded-[40px] shadow-sm group">
+        <Image 
+          src="/day-1-1.jpg" 
+          alt="LIF Gallery 1" 
+          fill 
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+      </div>
 
-            {/* Image 2 */}
-            <div className="relative h-[400px] overflow-hidden rounded-[40px] shadow-sm group">
-              <Image 
-                src="/galleries-image2.webp" 
-                alt="LIF Gallery 2" 
-                fill 
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </div>
+      {/* Image 2 */}
+      <div className="relative h-[400px] md:h-[600px] overflow-hidden rounded-[40px] shadow-sm group">
+        <Image 
+          src="/day-1-2.jpg" 
+          alt="LIF Gallery 2" 
+          fill 
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+      </div>
 
-            {/* Image 3 */}
-            <div className="relative h-[400px] overflow-hidden rounded-[40px] shadow-sm group">
-              <Image 
-                src="/galleries-image3.webp" 
-                alt="LIF Gallery 3" 
-                fill 
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </div>
+      {/* Image 3 */}
+      <div className="relative h-[400px] md:h-[600px] overflow-hidden rounded-[40px] shadow-sm group">
+        <Image 
+          src="/day-2-1.jpg" 
+          alt="LIF Gallery 3" 
+          fill 
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+      </div>
 
-          </div>
-        </div>
-      </section>
+      {/* Image 4 */}
+      <div className="relative h-[400px] md:h-[600px] overflow-hidden rounded-[40px] shadow-sm group">
+        <Image 
+          src="/day-2-3.jpg" 
+          alt="LIF Gallery 4" 
+          fill 
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
+        />
+        <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+      </div>
+
+      </div> {/* Tutup Grid */}
+  </div> {/* Tutup Container */}
+</section> {/* Tutup Section Galleries */}
+    
       {/* SECTION LOCAL PARTNERSHIP */}
       <section id="partnership" className="bg-[#FEFDF5] py-24 px-6 md:px-16 lg:px-24 scroll-mt-20">
         <div className="w-full max-w-7xl mx-auto text-center">
